@@ -1,0 +1,97 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/yellow"
+    android:padding="@dimen/padding_extra"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@layout/custom_button"
+        android:padding="@dimen/padding">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoViajeRuta"
+            android:textSize="@dimen/text_big"
+            android:padding="@dimen/padding"
+            android:background="@color/gray_dark"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_extra">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.coicapps.mibus.utils.customwidgets.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clase"
+                    android:textSize="@dimen/text_small"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/infoViajeCurso"
+                    android:textSize="@dimen/text_medium" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+                <com.coicapps.mibus.utils.customwidgets.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hora inicio"
+                    android:textSize="@dimen/text_small"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/infoViajeInicio"
+                    android:textSize="@dimen/text_small" />
+                <com.coicapps.mibus.utils.customwidgets.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hora fin"
+                    android:textSize="@dimen/text_small"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/infoViajeLlegada"
+                    android:textSize="@dimen/text_small" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <com.coicapps.mibus.utils.customwidgets.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensajes"
+            android:textSize="@dimen/text_small"
+            android:layout_marginTop="@dimen/padding_extra"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/infoViajeLista"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

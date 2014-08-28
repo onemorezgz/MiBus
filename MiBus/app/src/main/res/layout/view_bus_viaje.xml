@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:padding="@dimen/padding_extra">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@layout/custom_button"
+        android:padding="@dimen/padding">
+        <com.coicapps.mibus.utils.customwidgets.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/codigo"
+            android:id="@+id/textView7"
+            android:textSize="@dimen/text_small" />
+
+        <com.coicapps.mibus.utils.customwidgets.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/busViajeCodigo"
+            android:textSize="@dimen/text_medium" />
+
+        <com.coicapps.mibus.utils.customwidgets.CustomButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_extra"
+            android:layout_gravity="center_horizontal"
+            android:background="@layout/custom_button"
+            android:text="@string/mandar_mensaje"
+            android:id="@+id/busViajeMensaje" />
+
+        <com.coicapps.mibus.utils.customwidgets.CustomButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding"
+            android:background="@layout/custom_button"
+            android:text="@string/terminar_viaje"
+            android:id="@+id/busViajeTerminar" />
+        </LinearLayout>
+
+</LinearLayout>

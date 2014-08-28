@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="preference_ruta_creada">preference_ruta_creada</string>
+    <string name="preference_ruta_clave">preference_ruta_clave</string>
+    <string name="preference_ruta_nombre">preference_ruta_nombre</string>
+    <string name="preference_id_dispositivo">preference_id_dispositivo</string>
+    <string name="preference_usuario_viaje">preference_usuario_viaje</string>
+
+</resources>

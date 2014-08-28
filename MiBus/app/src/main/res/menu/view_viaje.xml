@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.coicapps.mibus.view.viaje.usuario.ViewViaje" >
+
+    <item android:id="@+id/action_remove"
+        android:title="Eliminar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_remove"
+        android:showAsAction="always" />
+
+</menu>

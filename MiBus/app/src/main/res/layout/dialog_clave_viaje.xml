@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_extra">
+
+    <EditText
+        android:id="@+id/clave_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su clave de viaje aquí"/>
+    <com.coicapps.mibus.utils.customwidgets.CustomButton
+        android:id="@+id/clave_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/padding_extra"
+        android:background="@layout/custom_button"
+        android:text="Buscar"
+        android:textSize="@dimen/text_medium"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000</color>
+    <color name="black_alpha">#AA000000</color>
+    <color name="black_alpha2">#99000000</color>
+    <color name="gray_dark">#333</color>
+    <color name="gray">#AAA</color>
+    <color name="white">#FFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#008AFF</color>
+    <color name="red">#ff7e0e00</color>
+    <color name="red_pending">#F00</color>
+    <color name="red_alpha">#66FF0000</color>
+    <color name="chat_gray">#fff0f0f0</color>
+    <color name="chat_green">#ffe9ffe9</color>
+    <color name="yellow">#fff8ff34</color>
+
+    <color name="background_0">#FF9999</color>
+    <color name="background_1">#FFCC99</color>
+    <color name="background_2">#FFFF99</color>
+    <color name="background_3">#CCFF99</color>
+    <color name="background_4">#99FFFF</color>
+    <color name="background_5">#99CCFF</color>
+    <color name="background_6">#FF99FF</color>
+    <color name="background_7">#E0E0E0</color>
+    <color name="background_8">#FF3333</color>
+    <color name="background_9">#FF8733</color>
+    <color name="background_10">#FF9999</color>
+    <color name="background_11">#A0A0A0</color>
+
+</resources>

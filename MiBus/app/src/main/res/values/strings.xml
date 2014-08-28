@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiBus</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="explicacion_codigo">Introduzaca el codigo de la ruta que desea seguir</string>
+    <string name="hint_introducir_codigo">Introduza el codigo</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="crear_ruta">Crear ruta</string>
+    <string name="codigo">Codigo:</string>
+    <string name="hora_llegada">Hora de llegada:</string>
+    <string name="hora_salida">Hora de salida:</string>
+    <string name="clase">Clase:</string>
+    <string name="nombre_recorrido">Nombre ruta:</string>
+    <string name="mandar_mensaje">Mandar Mensaje</string>
+    <string name="terminar_viaje">Finalizar viaje</string>
+
+</resources>
